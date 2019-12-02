@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-image: url("./img/wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: default;
+}
+
+
+.headerOverlay {
+    height: 55px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.headerNavBar {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.companyName {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.companyName:hover {
+    cursor: pointer;
+    color: #347c55;
+}
+
+.rightPart {
+    display: flex;
+}
+
+.messageIcon, .compassIcon, .calendarIcon {
+    display: inline-block;
+    background: url('./img/icons.png') no-repeat; 
+    overflow: hidden;
+    margin-right: 25px;
+}
+ 
+.calendarIcon { 
+    width: 19px; 
+    height: 19px; 
+    background-position: -2px -88px; 
+}
+
+.messageIcon { 
+    width: 28px; 
+    height: 20px; 
+    background-position: -2px -0px; 
+}
+
+.compassIcon { 
+    width: 20px; 
+    height: 20px; 
+    background-position: -2px -44px; 
+}
+
+.calendarIcon:hover {
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+    background-position: -2px -109px; 
+}
+
+.messageIcon:hover {
+    width: 28px; 
+    height: 20px;
+    cursor: pointer;
+    background-position: -2px -22px; 
+}
+
+.compassIcon:hover {
+    width: 20px; 
+    height: 20px;
+    cursor: pointer;
+    background-position: -2px -66px;
+}
+
+.menuBorder {
+    width: 1px;
+    height: 20px;
+    background-color: gray;
+}
+
+.accountAction {
+    margin: 0;
+    margin-left: 25px;
+    margin-top: 1px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.accountAction .logintxt {
+    color: #347c55;
+    text-decoration: none;
+}
+
+.accountAction .logintxt:hover {
+    text-decoration: underline;
+}
+
+.mainContainer {
+    height: calc(100vh - 55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpContainer {
+    width: 450px;
+    height: 650px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.greenRectangle {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 1px;
+    background-color: #3cb878;
+    position: absolute;
+    top: 36px;
+    left: 0;
+}
+
+.centerContainer {
+    width: 75%;
+    height: 90%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.signUpTxt {
+    margin: 0;
+    color: #434343;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header .logintxt {
+    color: #3cb878;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.header .logintxt:hover {
+    text-decoration: underline;
+}
+
+.socialMediaContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialMediaBtn {
+    width: 49%;
+    height: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: #305db8;
+    display: flex;
+    align-items: center;
+}
+
+.socialMediaBtn:active {
+    background-color: #264b96;
+}
+
+.socialMediaBtn:last-child {
+    background-color: #df4a32;
+}
+
+.socialMediaBtn:last-child:active {
+    background-color: #c3412c;
+}
+
+.fa-facebook-f, .fa-google-plus-g {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0 17px;
+}
+
+.fa-google-plus-g {
+    margin-right: 10px;
+}
+
+.verticalBorder {
+    width: .5px;
+    height: 55%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.facebookTxt {
+    margin: 0 15px;
+}
+
+.googlePlustxt {
+    margin: 0 20px;
+}
+
+.separator {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.borderBottom {
+    width: calc((100% - 20px) / 2);
+    height: 0.5px;
+    display: inline-block;
+    background-color: #c6c6c6;
+}
+
+.separator p {
+    color: #949494;
+    margin: 0 20px;
+}
+
+.userInput {
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+.termsContainer {
+    height: 40px;
+    margin: 5px 0 25px 0;
+    border: 1px solid black;
+}
+
+.createAccountBtn {
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    background-color: #3cb878;
+    cursor: pointer;
+    outline: none;
+}
+
+.createAccountBtn:active {
+    background-color: #329a65;
+    
+}
+
+
